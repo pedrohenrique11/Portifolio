@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Overpass+Mono:wght@300;400;600&family=Share+Tech+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    font-family: 'Roboto Mono', monospace;
+    font-size:  16px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* start navbar */
+.navbar {
+    color: white;
+    background-color: #2D2E32;
+}
+
+.navbar__container {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navbar__logo--pedro {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+.navbar__logo--henrique {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+ul {
+    list-style: none;
+}
+.navbar__links li {
+    padding: 0 15px;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+.navbar__links a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+}
+.navbar__links a.active {
+    color: #64F4AC;
+}
+
+.navbar__links a:hover {
+    color: #64F4AC;
+}
+
+/* start Home */
+#home{
+    color: white;
+}
+.home__container {
+    position: relative;
+    display: flex;
+    height: calc(100vh - 7.75rem);
+}
+.home__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.home__copy {
+    position: absolute;
+    padding: 0 10%;
+    top: 20vh;
+}
+.home__h4 {
+    font-size: 16px;
+    color: black;
+    background-color: #64F4AC;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 205px;
+}
+.home__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home__text {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+
+    color: #5A5D62;
+}
+
+/* start About_me */
+#about_me {
+    color: white;
+    background: #25262A;
+    padding: 0px 10%;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.3fr 1fr;
+    grid-template-areas:
+    "title title"
+    "mobile about-me"
+    "web about-me";
+}
+.about-me h3{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #64F4AC;
+    padding: 5%;
+}
+.about-me p {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #5A5D62;
+    padding: 0px 5% 0px 5%;
+}
+.about-me h5 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    padding: 10% 5% 5% 5%;
+    color: #64F4AC;
+}
+
+.about-me__title {
+    color: #64F4AC;
+    grid-area: title;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    padding-top: 5%;       
+ }
+.about-me__mobile {
+    grid-area: mobile;
+    background-color: #2D2E32;
+    border-radius: 5px;
+    width: 662px;
+    height: 300px;
+}
+.about-me__web {
+    grid-area: web;
+    background-color: #2D2E32;
+    border-radius: 5px;
+    width: 662px;
+    height: 300px;
+ }
+.about-me__presentation {
+  grid-area: about-me;
+}
+.about-me__presentation p {
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #5A5D62;
+}
+.about-me__presentation h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    
+}
+.about-me__presentation h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #E5E5E5;
+    padding-top: 10%;
+}
+.about-me__presentation span {
+    color: #64F4AC;
+}
+.about-me__presentation h6 {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #5A5D62;
+    padding-top: 10%;
+}
+
+/* start contact */
+.contact {
+    color: #fff;
+    background: #25262A;
+    padding: 0px 10%;
+    width: 100%;
+    height: 1080px;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.contact h3 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+
+    color: #64F4AC;
+}
+.contact span{
+    color: #64F4AC;
+}
+.contact__text h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+}
+.contact__form {
+    grid-area: ;
+    background: #2D2E32;
+    border-radius: 5px;
+    width: 100%;
+    height: 738px;
+}
