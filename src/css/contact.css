@@ -1,0 +1,22 @@
+/* start contact */
+.contact {
+    color: #fff;
+    background: #25262A;
+    padding: 0 10%;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+
+}
+.contact span{
+    color: #64F4AC;
+}
+.contact__text h2 {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+}

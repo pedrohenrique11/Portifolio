@@ -1,0 +1,47 @@
+/* start navbar */
+.navbar {
+    color: white;
+    background-color: #2D2E32;
+}
+
+.navbar__container {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navbar__logo--pedro {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+.navbar__logo--henrique {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+ul {
+    list-style: none;
+}
+.navbar__links li {
+    padding: 0 15px;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+.navbar__links a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+}
+.navbar__links a.active {
+    color: #64F4AC;
+}
+
+.navbar__links a:hover {
+    color: #64F4AC;
+}

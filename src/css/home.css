@@ -1,0 +1,43 @@
+/* start Home */
+#home{
+    color: white;
+}
+.home__container {
+    position: relative;
+    display: flex;
+    height: calc(100vh - 7.75rem);
+}
+.home__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.home__copy {
+    position: absolute;
+    padding: 0 10%;
+    top: 20vh;
+}
+.home__h4 {
+    font-size: 16px;
+    color: black;
+    background-color: #64F4AC;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 205px;
+}
+.home__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home__text {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+
+    color: #5A5D62;
+}
