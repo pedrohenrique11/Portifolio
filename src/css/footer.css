@@ -1,6 +1,6 @@
 /* start footer */
 .footer {
-    background-color: #25262A;
+    background-color: var(--background-color);
     padding: 1% 10%;
     width: 100%;
     display: flex;
@@ -22,7 +22,7 @@
     font-weight: 300;
 }
 .footer__copywrite {
-    color: #5A5D62;
+    color: var(--text-color);
     font-size: 14px;
     line-height: 21px;
     font-weight: 500;

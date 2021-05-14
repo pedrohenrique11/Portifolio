@@ -19,25 +19,26 @@
     top: 20vh;
 }
 .home__h4 {
-    font-size: 16px;
+    font-size: 1rem;
     color: black;
-    background-color: #64F4AC;
+    background-color: var(--text-color-2);
     border-radius: 5px;
-    padding: 10px 10px;
-    width: 205px;
+    padding: 1% 1%;
+    width: 12.8125rem;
+
 }
 .home__title {
     font-weight: 400;
-    font-size: 60px;
-    line-height: 73px;
+    font-size: 3.75rem;
+    line-height: 4.5625rem;
     letter-spacing: 0.02em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .home__text {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 3.6rem;
     letter-spacing: 0.05em;
 
-    color: #5A5D62;
+    color: var(--text-color);
 }

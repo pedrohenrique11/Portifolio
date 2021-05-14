@@ -1,21 +1,21 @@
 /* start navbar */
 .navbar {
     color: white;
-    background-color: #2D2E32;
+    background-color: var(--primary-color);
 }
 
 .navbar__container {  
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 1.875rem 10%;
 }
 .navbar__logo--pedro {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-weight: 500;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 2.25rem;
+    line-height: 3rem;
     letter-spacing: 0.05em;
 }
 .navbar__logo--henrique {
@@ -26,11 +26,11 @@ ul {
     list-style: none;
 }
 .navbar__links li {
-    padding: 0 15px;
+    padding: 0 1rem;
     display: inline-block;
     margin-right: 2rem;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.3125rem;
     letter-spacing: 0.05em;
 }
 .navbar__links a {
@@ -39,9 +39,9 @@ ul {
     font-weight: 300;
 }
 .navbar__links a.active {
-    color: #64F4AC;
+    color: var(--text-color-2);
 }
 
 .navbar__links a:hover {
-    color: #64F4AC;
+    color: var(--text-color-2);
 }
