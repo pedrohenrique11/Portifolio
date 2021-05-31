@@ -17,3 +17,24 @@
 body {
     box-sizing: border-box;
 }
+
+@media (max-width:1200px) {
+    :root {
+        font-size: 14px;
+    }
+}
+@media (max-width:1000px) {
+    :root {
+        font-size: 10px;
+    }
+}
+@media (max-width:420px) {
+    :root {
+        font-size: 7px;
+    }
+}
+@media (max-width:320px) {
+    :root {
+        font-size: 5px;
+    }
+}

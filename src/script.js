@@ -1,5 +1,3 @@
-
-
 // menu nav scroll
 var menuItens = document.querySelectorAll ('.navbar a[href^="#"] ,.footer a[href^="#"]');
 

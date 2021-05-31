@@ -1,0 +1,53 @@
+.skills {
+    height: 100vh;
+    background-color: var(--background-color);
+    color: #fff;
+}
+.skills__container {
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: 
+    "skills skills skills"
+    "experience learning interested";
+    justify-content: center;
+}
+.skills__title {
+    grid-area: skills;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.05rem;
+    padding: 2rem;
+    color: var(--text-color-2);
+}
+.experience {
+    grid-area: experience;
+}
+.learning {
+    grid-area: learning;
+}
+.interested {
+    grid-area: interested;
+}
+.experience,.learning,.interested {
+    background-color: var(--primary-color);
+    width: 30rem;
+    height: 10rem;
+}
+
+@media (max-width: 1200px) {
+    .skills__container {
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-areas: 
+        "skills"
+        "experience"
+        "learning"
+        "interested";
+        text-align: center;
+    }
+}

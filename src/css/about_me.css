@@ -1,103 +1,135 @@
 /* start About_me */
-#about_me {
-    color: white;
+.about-me {
+    height: 110vh;
+    color: #fff;
     background-color: var(--background-color);
-    padding: 0px 10%;
-    width: 100%;
-    height: 1000px;
+}
+.about-me__container {   
+    height: 110vh;
     display: grid;
-    grid-gap: 5rem;
-    grid-row-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.3fr 1fr;
-    grid-template-areas:
+    grid-template-rows: 0.2fr 0.6fr 1fr;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
     "title title"
-    "mobile about-me"
-    "web about-me";
+    "card1 text1"
+    "card2 text1";
 }
-.about-me h3{
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 300;
-    letter-spacing: 0.05em;
-    color: var(--text-color-2);
-    padding: 5%;
-}
-.about-me__descri {
-    font-size: 20px;
-    line-height: 21px;
-    letter-spacing: 0.05em;
-    color: va(--text-color);
-    padding: 0px 5% 0px 5%;
-}
-.about-me h5 {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 30px;
-    letter-spacing: 0.2em;
-    padding: 10% 5% 5% 5%;
-    color: var(--text-color-2);
-}
-.about-me__intro{
-    padding: 0%;
-    font-size: 14px;
-}
-.about-me__title {
-    color: var(--text-color-2);
+.about-me__title{
     grid-area: title;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 41px;
-    letter-spacing: 0.05em;
-    padding-top: 5%;       
- }
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.05rem;
+    padding: 2rem;
+    color: var(--text-color-2);
+}
 .about-me__mobile {
-    grid-area: mobile;
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    width: 662px;
-    height: 300px;
+    grid-area: card1;
 }
 .about-me__web {
-    grid-area: web;
+    grid-area: card2;
+}
+.about-me__web,
+.about-me__mobile {
+    width: 35rem;
+    height: 15rem;
     background-color: var(--primary-color);
     border-radius: 5px;
-    width: 662px;
-    height: 300px;
- }
-.about-me__presentation {
-  grid-area: about-me;
 }
-.about-me__presentation p {
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
-    letter-spacing: 0.05em;
+.ab__card--title {
+    padding: 2rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.05rem;
+    color: var(--text-color-2);
+}
+.ab__card--descri {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    letter-spacing: 0.05rem;
     color: var(--text-color);
+}
+.about-me__presentation {
+    grid-area: text1;
+}
+.ab__presentation--intro {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
 }
 .about-me__presentation h2 {
     font-weight: 400;
-    font-size: 50px;
-    line-height: 57px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.05rem;
+    color: #fff;
+    padding-bottom: 1rem;
 }
 .about-me__presentation h4 {
     font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 0.05em;
-    color: #E5E5E5;
-    padding-top: 10%;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.05rem;
+    color: #e5e5e5;
+    padding-bottom: 2rem;
+    
 }
-.about-me__presentation span {
+.ab--span {
     color: var(--text-color-2);
 }
-.about-me__presentation h6 {
-    font-size: 18px;
-    line-height: 27px;
+.ab--text {
+    font-size: 1rem;
+    line-height: 1.3rem;
     letter-spacing: 0.05em;
     color: var(--text-color);
-    padding-top: 10%;
+}
+@media (min-width: 1200px) {
+    .about-me__container{
+        margin: 0 8rem;
+    }
+}
+
+@media (max-width: 1200px) {
+   .about-me__container {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.2fr;
+    grid-template-areas: 
+    "title"
+    "text1"
+    "card1"
+    "card2";
+   }
+   .about-me__title,
+   .about-me__mobile,
+   .about-me__web,
+   .about-me__presentation {
+       text-align: center;
+   }
+   .about-me__web,
+   .about-me__mobile{
+    width: 50rem;
+    height: 20rem;
+}
+.ab--text {
+    line-height: 2rem;
+    margin: 0 6rem;
+    
+}
+.about-me__web {
+    margin-bottom: 3rem;
+    
+   }
+}
+
+@media (max-width: 540px) {
+
+    .ab--text {
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 0.05em;
+        color: var(--text-color);
+    }
 }

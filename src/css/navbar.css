@@ -1,5 +1,6 @@
 /* start navbar */
 .navbar {
+    grid-area: nav;
     color: white;
     background-color: var(--primary-color);
 
@@ -9,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.875rem 10%;
+    padding: 1.4rem 10%;
 }
 .navbar__logo--pedro {
     font-family: 'Open Sans', sans-serif;
@@ -29,7 +30,7 @@ ul {
 .navbar__links li {
     padding: 0 1rem;
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     font-size: 1rem;
     line-height: 1.3125rem;
     letter-spacing: 0.05em;
