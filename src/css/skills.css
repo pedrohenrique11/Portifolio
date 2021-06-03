@@ -1,18 +1,24 @@
 .skills {
-    height: 100vh;
+    height: 60vh;
     background-color: var(--background-color);
     color: #fff;
+    text-align: center;
+}
+.skills li {
+    display: inline-block;
 }
 .skills__container {
+    justify-items: center;
+    height: 60vh;
+    display: flex;
 
-    height: 100vh;
-    display: grid;
+    /*display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr;
     grid-template-areas: 
     "skills skills skills"
-    "experience learning interested";
-    justify-content: center;
+    "experience learning interested";*/
+    justify-content: space-evenly;
 }
 .skills__title {
     grid-area: skills;
@@ -22,6 +28,18 @@
     letter-spacing: 0.05rem;
     padding: 2rem;
     color: var(--text-color-2);
+}
+.skills h4 {
+    padding: 2rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.05rem;
+    color: var(--text-color-2);
+}
+.skills p {
+    
+    font-size: 3rem;
 }
 .experience {
     grid-area: experience;
@@ -34,20 +52,58 @@
 }
 .experience,.learning,.interested {
     background-color: var(--primary-color);
-    width: 30rem;
-    height: 10rem;
+    width: 35rem;
+    height: 12rem;
+    border-radius: 5px;
 }
-
-@media (max-width: 1200px) {
+.icon__js {
+    color: #EFD81D;
+}
+.icon__css {
+    color: #254BDD;
+}
+.icon__html {
+    color: #DD4B25;
+}
+.icon__react {
+    color: #5ED3F3;
+}
+.icon__nodejs {
+    color: #7BB540;
+}
+.icon__angular {
+    color: #BD002E;
+}
+.icon__c {
+    color: #00427E;
+}
+@media (min-width: 1700px) {
+    .icon__c,.icon__css,.icon__nodejs {
+        padding-left: 2rem;
+    }
+}
+@media (max-width: 1700px) {
     .skills__container {
-        justify-items: center;
+        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-rows: 0.02fr 0.3fr 0.3fr 0.3fr;
         grid-template-areas: 
         "skills"
         "experience"
         "learning"
         "interested";
         text-align: center;
+    }
+    .experience,.learning,.interested {
+        background-color: var(--primary-color);
+        width: 35rem;
+        height: 10rem;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .skills__container,.skills {
+        height: 60vh;
     }
 }

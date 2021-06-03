@@ -1,7 +1,7 @@
 /* start Home */
 #home{
     grid-area: home;
-    height: calc(100vh - 8.75rem);
+    height: calc(105vh - 8.75rem);
     background-color: var(--primary-color);
     text-align: center;
     
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 .home__copy {
-    padding-top: 10rem;
+    padding-top: 20rem;
 }
 .home__h4 {
     font-size: 1rem;

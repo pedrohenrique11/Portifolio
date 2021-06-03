@@ -1,5 +1,7 @@
 /* start navbar */
 .navbar {
+    width: 100vw;
+    position: fixed;
     grid-area: nav;
     color: white;
     background-color: var(--primary-color);
