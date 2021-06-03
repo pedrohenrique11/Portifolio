@@ -1,5 +1,5 @@
 .skills {
-    height: 60vh;
+    height: 70vh;
     background-color: var(--background-color);
     color: #fff;
     text-align: center;
@@ -9,8 +9,9 @@
 }
 .skills__container {
     justify-items: center;
-    height: 60vh;
+    height: 70vh;
     display: flex;
+    margin: 0 3rem;
 
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,6 +81,9 @@
 @media (min-width: 1700px) {
     .icon__c,.icon__css,.icon__nodejs {
         padding-left: 2rem;
+    }
+    .skills__title {
+        padding-bottom: 6rem;
     }
 }
 @media (max-width: 1700px) {
