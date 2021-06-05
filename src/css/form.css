@@ -5,12 +5,12 @@
     align-items: center;
     padding: 2rem;
     width: 34rem;
-    height: 42rem;
+    height: 43rem;
     border-radius: 5px;
     background-color: var(--primary-color);
 }
 .form--title {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 400;
     color: var(--text-color-2);
     padding-bottom: 4rem;
@@ -19,8 +19,8 @@
 .contact__form input {
     width: 25rem;
     margin-bottom: 1rem;
-    font-size: 1.2rem;
-    padding: 1.2rem 0.9rem;
+    font-size: 1.4rem;
+    padding: 1rem 0.9rem;
     color: black;
     border: unset;
     border-radius: 3px;

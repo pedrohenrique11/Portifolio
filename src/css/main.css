@@ -25,16 +25,16 @@ body {
 }
 @media (max-width:1000px) {
     :root {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 @media (max-width:420px) {
     :root {
-        font-size: 7px;
+        font-size: 8px;
     }
 }
 @media (max-width:320px) {
     :root {
-        font-size: 5px;
+        font-size: 6px;
     }
 }

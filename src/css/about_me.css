@@ -38,6 +38,10 @@
     background-color: var(--primary-color);
     border-radius: 5px;
 }
+.about-me__web:hover,
+.about-me__mobile:hover {
+    box-shadow: black;
+}
 .ab__card--title {
     padding: 2rem;
     font-weight: 300;
@@ -110,6 +114,7 @@
    }
    .about-me__web,
    .about-me__mobile{
+       width: 42rem;
     height: 18rem;
 }
 .ab--text {
