@@ -49,3 +49,6 @@ ul {
 .navbar__links a:hover {
     color: var(--text-color-2);
 }
+@media (max-width: 1000px){
+    
+}

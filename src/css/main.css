@@ -12,6 +12,7 @@
     --text-color-2: #64F4AC;
     font-family: 'Roboto Mono', monospace;
     font-size:  16px;
+    overflow-x: hidden;
 }
 
 body {
