@@ -29,7 +29,7 @@ body {
         font-size: 12px;
     }
 }
-@media (max-width:420px) {
+@media (max-width:540px) {
     :root {
         font-size: 8px;
     }

@@ -64,10 +64,11 @@
 }
 .experience:hover,.learning:hover,.interested:hover {
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
-    width: 31rem;
-    height: 13rem;
+    width: 33rem;
+    height: 14rem;
+    z-index: 2;
 }
-.icon__js {
+.icon__js,.icon__js2 {
     color: #EFD81D;
 }
 .icon__css {
@@ -122,10 +123,13 @@
     .skills p:hover {
         font-size: 5rem;
     }
+    .skills__container,.skills {
+        height: 75vh;
+    }
 }
 
 @media (max-width: 1000px) {
     .skills__container,.skills {
-        height: 65vh;
+        height: 70vh;
     }
 }

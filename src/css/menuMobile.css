@@ -11,7 +11,7 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    z-index: 1001;
+    z-index: 1002;
 }
 
 @media (max-width: 1000px) {

@@ -88,6 +88,9 @@
 .ab--span {
     color: var(--text-color-2);
 }
+.ab__span:hover {
+    color: #fff;
+}
 .ab--text {
     font-size: 1.3rem;
     line-height: 1.8rem;
@@ -96,8 +99,17 @@
 }
 
 
-
-@media (max-width: 1200px) {
+@media (min-width: 1800px) {
+    .about-me__web,
+.about-me__mobile {
+    width: 50rem;
+}
+.about-me__web:hover,
+.about-me__mobile:hover {
+    width: 52rem;
+}
+}
+@media (max-width: 1600px) {
    .about-me__container {
     margin: 0 8rem;
     justify-items: center;
@@ -148,7 +160,7 @@
     }
     .about-me__web:hover,
     .about-me__mobile:hover {
-    width: 35rem;
+    width: 36rem;
     height: 21rem;
-}
+    }
 }
