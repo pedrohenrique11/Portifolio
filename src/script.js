@@ -14,7 +14,7 @@ function scrollIdClick(event) {
     const to = document.querySelector(id).offsetTop;
     
     window.scroll({
-        top: to - 150,
+        top: to - 110,
         behavior: "smooth",
     });
 };
@@ -31,14 +31,14 @@ function toggleMenu() {
 btnMobile.addEventListener('click', toggleMenu); // evento
 
 
-// Icons modal function
+// Showed modal function
 function showedModal (modalID) {
     const modal = document.getElementById(modalID);
     modal.classList.add('showed');
     modal.addEventListener('click', () => modal.classList.remove('showed'))
 }
 
-//const icons
+//const icons modals
 const javaScriptModal = document.querySelector('.icon__js');
 javaScriptModal.addEventListener('click', () => showedModal('modal-js'));
 
@@ -62,3 +62,5 @@ angularModal.addEventListener('click', () => showedModal('modal-angular'));
 
 const JavaScriptModal2 = document.querySelector('.icon__js2');
 JavaScriptModal2.addEventListener('click', () => showedModal('modal-js'));
+
+// Form

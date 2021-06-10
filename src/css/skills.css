@@ -66,28 +66,35 @@
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
     width: 33rem;
     height: 14rem;
-    z-index: 2;
+    z-index: 1;
 }
 .icon__js,.icon__js2 {
     color: #EFD81D;
+    cursor: pointer;
 }
 .icon__css {
     color: #254BDD;
+    cursor: pointer;
 }
 .icon__html {
     color: #DD4B25;
+    cursor: pointer;
 }
 .icon__react {
     color: #5ED3F3;
+    cursor: pointer;
 }
 .icon__nodejs {
     color: #7BB540;
+    cursor: pointer;
 }
 .icon__angular {
     color: #BD002E;
+    cursor: pointer;
 }
 .icon__c {
     color: #00427E;
+    cursor: pointer;
 }
 @media (min-width: 1700px) {
     .skills__title {

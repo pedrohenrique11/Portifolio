@@ -1,15 +1,17 @@
 /* start contact */
 .contact{
-    height: 90vh;
+    height: 100vh;
     color: #fff;
     background-color: var(--background-color);
 }
 .contact__container {
-    height: 90vh;
+    margin: 0 10rem;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
 }
 .contact_text-title {
+    width: 60rem;
     font-size: 2.6rem;
     font-weight: 400;
     padding-bottom: 1rem;
@@ -24,6 +26,10 @@
 .contact__container li {
     display: inline-block;
 }
+
+.linkedin {
+    color: #0274b3;
+}
 .contact__container i {
     font-size: 3rem;
     padding-top: 3rem;
@@ -33,6 +39,7 @@
 
 @media (max-width:1400px) {
     .contact__container {
+        margin: 0 5rem;
         text-align: center;
         flex-direction: column;
         align-items: center;

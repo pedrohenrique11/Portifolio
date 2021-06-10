@@ -4,10 +4,18 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    width: 34rem;
-    height: 43rem;
+    width: 36rem;
+    height: 42rem;
     border-radius: 5px;
     background-color: var(--primary-color);
+    transition: .3s;
+}
+.contact__form form {
+    width: 100%;
+}
+.contact__form:hover {
+    width: 36.4rem;
+    height: 42.4rem;
 }
 .form--title {
     font-size: 2.3rem;
@@ -16,15 +24,70 @@
     padding-bottom: 4rem;
 }
 
+div.input {
+    margin-bottom: 24px;
+    position: relative;
+}
+
 .contact__form input {
-    width: 25rem;
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-    padding: 1rem 0.9rem;
-    color: black;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 100%;
+    padding: 1.2rem 0rem;
+
+    border:none;
+    border-bottom: 1px solid var(--text-color-2);
+
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input ~ label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+    color: rgba(255, 255, 255, 0.6) ;
+
+    transition: .4s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-2rem);
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+.bnt__form--container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bnt--form{
+    color:black;
+    background-color: var(--text-color-2);
+
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.8rem 2rem;
+    margin: 10%;
+
+    border-radius: 0.2rem;
     border: unset;
-    border-radius: 3px;
-  }
-#text {
-    padding: 1rem 1rem 8rem 0.9rem ;
+    letter-spacing: 0.08rem;
+}
+    
+
+
+@media (max-width: 540px) {
+    .contact__form {
+        height: 46rem;
+}
+.contact__form:hover {
+    height: 46.4rem;
+}
 }

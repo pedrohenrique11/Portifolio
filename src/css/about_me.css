@@ -10,7 +10,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.2fr 0.4fr 1fr;
-    grid-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 7rem;
     grid-template-areas: 
     "title title"
     "card1 text1"
@@ -33,7 +34,7 @@
 }
 .about-me__web,
 .about-me__mobile {
-    width: 45rem;
+    width: 40rem;
     height: 20rem;
     background-color: var(--primary-color);
     border-radius: 5px;
@@ -129,7 +130,7 @@
    }
    .about-me__web,
    .about-me__mobile{
-       width: 42rem;
+    width: 70vw;
     height: 18rem;
 }
 .ab--text {
@@ -145,7 +146,13 @@
 .about-me__container {   
     margin: 0 1rem;
 }
+.about-me__web:hover,
+.about-me__mobile:hover {
+width: 72vw;
+height: 21rem;
 }
+}
+
 
 @media (max-width: 540px) {
     .ab--text {
@@ -153,14 +160,5 @@
         line-height: 2rem;
         letter-spacing: 0.05em;
         color: var(--text-color);
-    }
-    .about-me__web,
-   .about-me__mobile{
-    width: 35rem; 
-    }
-    .about-me__web:hover,
-    .about-me__mobile:hover {
-    width: 36rem;
-    height: 21rem;
     }
 }
