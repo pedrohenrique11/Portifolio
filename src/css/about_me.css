@@ -36,30 +36,56 @@
 .about-me__mobile {
     width: 40rem;
     height: 20rem;
+
     background-color: var(--primary-color);
+
     border-radius: 5px;
     transition: 0.6s;
 }
 .about-me__web:hover,
 .about-me__mobile:hover {
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
+
     width: 46rem;
     height: 21rem;
 }
+.about-me__web:hover ~ p,
+.about-me__mobile:hover ~ p {
+    font-size: 2rem;
+}
 .ab__card--title {
     padding: 2rem;
+
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 2.2rem;
     letter-spacing: 0.05rem;
+
     color: var(--text-color-2);
 }
 .ab__card--descri {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
     padding: 0 1rem;
+
     font-size: 1rem;
     line-height: 1.8rem;
     letter-spacing: 0.05rem;
     color: var(--text-color);
+}
+.card--descri--title {
+    color: #fff;
+
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.card--descri--title2 {
+    color: var(--text-color-2);
+
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 .about-me__presentation {
     grid-area: text1;

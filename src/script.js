@@ -21,14 +21,14 @@ function scrollIdClick(event) {
 
 
 // Menu mobile
-const btnMobile = document.getElementById('btn--mobile') //selecionando o botao
+const btnMobile = document.getElementById('btn--mobile') //-selecionando o botao
 
 function toggleMenu() {
-    const nav = document.getElementById('nav'); //selcionando o nav
-    nav.classList.toggle('active'); // adicione caso seja tocado
+    const nav = document.getElementById('nav'); //-selcionando o nav
+    nav.classList.toggle('active'); // -adicione caso seja tocado
 };
 
-btnMobile.addEventListener('click', toggleMenu); // evento
+btnMobile.addEventListener('click', toggleMenu); // -evento
 
 
 // Showed modal function
@@ -38,7 +38,7 @@ function showedModal (modalID) {
     modal.addEventListener('click', () => modal.classList.remove('showed'))
 }
 
-//const icons modals
+// -const icons modals
 const javaScriptModal = document.querySelector('.icon__js');
 javaScriptModal.addEventListener('click', () => showedModal('modal-js'));
 
@@ -64,3 +64,37 @@ const JavaScriptModal2 = document.querySelector('.icon__js2');
 JavaScriptModal2.addEventListener('click', () => showedModal('modal-js'));
 
 // Form
+
+const formInputs = document.querySelector("[required]")
+console.log(formInputs)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.querySelector('form')
+.addEventListener('submit', event => {
+    coinsole.log('enviou')
+
+    // caso nao envie
+    event.preventDefault()
+})
