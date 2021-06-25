@@ -1,7 +1,23 @@
-# personal_site
-👋 Hi, I’m @Ballack11;
-👀 I’m interested in mobile debelopment;
-🌱 I’m currently learning new programming languages and new ways to improve my work;
-💞️ I’m looking to collaborate on new mobile apps;
-📫 How to reach me : e-mail - ballack.11@outlook.com;
-This is one of my first personal projects. It is a personal website for portfolio and presentation. Html, css and base JavaScrip will be used
+# Site pessoal
+
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
+
+## 💻 Projeto
+Site Pessoal desenvolvido para treinar e demonstrar habilidades mas linguagens HTML, CSS, JavaScript, MySQL e Node.js
+
+
+## 🛠️ Tecnologias
+
+- [x] HTML
+- [x] CSS
+- [x] npm
+- [x] JavaScript
+- [ ] Node.js
+- [ ] MySQL
+
+## 👨🏼‍💻 Features
+
+- [x] Animações com CSS e JS
+- [ ] Autenticação de Formulário
