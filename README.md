@@ -1,7 +1,7 @@
 # Site pessoal
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Projeto 🚀 Em construção...  🚧
 </h4>
 
 ## 💻 Projeto
