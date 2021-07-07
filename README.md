@@ -7,6 +7,7 @@
 ## 💻 Projeto
 Site Pessoal desenvolvido para treinar e demonstrar habilidades mas linguagens HTML, CSS, JavaScript, MySQL e Node.js
 
+Pode acessar o projeto através [desse link](pedro-developer.surge.sh).
 
 ## 🛠️ Tecnologias
 
