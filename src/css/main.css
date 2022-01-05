@@ -9,8 +9,8 @@
     --primary-color: #2D2E32;
     --background-color: #25262A;
     --text-color: #5A5D62;
-    --text-color-2: #64F4AC;
-    font-family: 'Roboto Mono', monospace;
+    --text-color-2: #1093BF;
+    font-family: 'Red Hat display', monospace;
     font-size:  16px;
     overflow-x: hidden;
 }
