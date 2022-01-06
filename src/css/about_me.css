@@ -30,6 +30,8 @@
     width: 40rem;
     height: 20rem;
 
+    padding: 20px;
+
     background-color: var(--primary-color);
 
     border-radius: 5px;
