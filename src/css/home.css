@@ -3,11 +3,10 @@
     height: 100vh;
     background-color: var(--primary-color);
     text-align: start;
-    
-    
 }
 .home__container {
     margin: auto;
+    padding-top: 150px;
     max-width: 1700px;
 
     color: #fff;
@@ -52,14 +51,18 @@
     max-width: 500px;
 }
 .home__img img {
-    width: 300px;
+    width: 400px;
 }
 @media (max-width: 1000px) {
     .home__container {
+        padding-top: 0;
         flex-direction: column;
     }
     .home__copy{
         padding-top: 80px;
+    }
+    .home__img img {
+        width: 300px;
     }
 }
 
