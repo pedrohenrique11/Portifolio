@@ -1,36 +1,20 @@
-.skills {
-    height: 70vh;
-    background-color: var(--background-color);
-    color: #fff;
+.projects {
+    height: 100vh;
     text-align: center;
-}
-.skills li {
-    display: inline-block;
-}
-.skills__container {
-    justify-items: center;
-    height: 70vh;
-    display: flex;
-    margin: 0 3rem;
 
-    /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr;
-    grid-template-areas: 
-    "skills skills skills"
-    "experience learning interested";*/
+    color: #fff;
+    background-color: var(--background-color);
+}
+.projects__container {
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
 }
-.skills__title {
-    grid-area: skills;
-    font-weight: 400;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.05rem;
-    padding: 2rem;
-    color: var(--text-color-2);
-}
-.skills h4 {
+
+.projects h4 {
     padding: 2rem;
     font-weight: 300;
     font-size: 1.8rem;
@@ -38,22 +22,22 @@
     letter-spacing: 0.05rem;
     color: var(--text-color-2);
 }
-.skills p {
+.projects li {
+    display: inline-block;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+.experience,.learning {
     font-size: 3rem;
     transition: 0.3s;
 }
-.skills p:hover {
+.experience p:hover,.learning p:hover {
     font-size: 4rem;
 }
-.experience {
-    grid-area: experience;
-}
-.learning {
-    grid-area: learning;
-}
-.interested {
-    grid-area: interested;
-}
+
 .experience,.learning,.interested {
     background-color: var(--primary-color);
     width: 30rem;
@@ -62,7 +46,7 @@
     transition: 0.3s;
     text-align: center;
 }
-.experience:hover,.learning:hover,.interested:hover {
+.experience:hover,.learning:hover {
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
     width: 33rem;
     height: 14rem;
@@ -103,14 +87,6 @@
 }
 @media (max-width: 1700px) {
     .skills__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.02fr 0.3fr 0.3fr 0.5fr;
-        grid-template-areas: 
-        "skills"
-        "experience"
-        "learning"
-        "interested";
         text-align: center;
     }
     .experience,.learning,.interested {
@@ -119,15 +95,15 @@
         height: 12rem;
         border-radius: 5px;
     }
-    .experience:hover,.learning:hover,.interested:hover {
+    .experience:hover,.learning:hover {
         box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
         width: 37rem;
         height: 14rem;
     }
-    .skills p {
+    .experience p,.learning p {
         font-size: 4rem;
     }
-    .skills p:hover {
+    .experience p:hover,.learning p:hover {
         font-size: 5rem;
     }
     .skills__container,.skills {

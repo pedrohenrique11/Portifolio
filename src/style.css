@@ -3,15 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Overpass+Mono:wght@300;400;600&family=Share+Tech+Mono&display=swap');
 
-@import url('/personal_site/src/css/main.css');
-@import url('/personal_site/src/css/navbar.css');
-@import url('/personal_site/src/css/skills.css');
-@import url('/personal_site/src/css/home.css');
-@import url('/personal_site/src/css/contact.css');
-@import url('/personal_site/src/css/footer.css');
-@import url('/personal_site/src/css/about_me.css');
+@import url('/src/css/main.css');
+@import url('/src/css/navbar.css');
+@import url('/src/css/skills.css');
+@import url('/src/css/home.css');
+@import url('/src/css/contact.css');
+@import url('/src/css/footer.css');
+@import url('/src/css/about_me.css');
 
-@import url('/personal_site/src/css/form.css');
+@import url('/src/css/form.css');
 @import url('/src/css/bnt.css');
-@import url('/personal_site/src/css/menuMobile.css');
-@import url('/personal_site/src/css/modal.css');
+@import url('/src/css/menuMobile.css');
+@import url('/src/css/modal.css');

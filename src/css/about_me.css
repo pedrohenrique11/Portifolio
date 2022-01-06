@@ -1,21 +1,18 @@
 /* start About_me */
 .about-me {
-    height: 110vh;
+    height: 100vh;
     color: #fff;
     background-color: var(--background-color);
 }
 .about-me__container {   
     margin: 0 10rem;
     height: 110vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.4fr 1fr;
-    grid-row-gap: 1.5rem;
-    grid-column-gap: 7rem;
-    grid-template-areas: 
-    "title title"
-    "card1 text1"
-    "card2 text1";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
 }
 .about-me__title{
     grid-area: title;
@@ -179,6 +176,9 @@ height: 21rem;
 }
 }
 
+@media (max-width: 540px) {
+
+}
 
 @media (max-width: 540px) {
     .ab--text {
