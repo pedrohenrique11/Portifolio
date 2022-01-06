@@ -29,7 +29,7 @@
     background-color: var(--text-color-2);
     border-radius: 5px;
     padding: 0.6rem 0.6rem;
-    width: 11.5rem;
+    width: 13rem;
 }
 .home__title {
     font-weight: 400;
@@ -60,5 +60,36 @@
     }
     .home__copy{
         padding-top: 80px;
+    }
+}
+
+@media (max-width: 520px) {
+    .home__h4 {
+        font-size: 1rem;
+        color: black;
+        background-color: var(--text-color-2);
+        border-radius: 5px;
+        padding: 0.6rem 0.6rem;
+        width: 13rem;
+    }
+    .home__title {
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 4.5625rem;
+        letter-spacing: 0.02em;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .home__text {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        letter-spacing: 0.05em;
+    
+        color: var(--text-color);
+    }
+    .home__img {
+        display: flex;
+        align-items: center;
+        max-width: 500px;
     }
 }

@@ -1,12 +1,12 @@
 /* start contact */
 .contact{
-    height: 100vh;
+    height: 90vh;
     color: #fff;
     background-color: var(--background-color);
 }
 .contact__container {
     margin: 0 10rem;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
 }
@@ -27,9 +27,6 @@
     display: inline-block;
 }
 
-.linkedin {
-    color: #0274b3;
-}
 .contact__container i {
     font-size: 3rem;
     padding-top: 3rem;
@@ -44,5 +41,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+    }
+}
+
+@media (max-width:650px) {
+    .contact_text-title {
+        width: 75vw;
+        font-size: 2.6rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
     }
 }

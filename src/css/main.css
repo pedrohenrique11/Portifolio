@@ -29,13 +29,3 @@ body {
         font-size: 12px;
     }
 }
-@media (max-width:540px) {
-    :root {
-        font-size: 8px;
-    }
-}
-@media (max-width:320px) {
-    :root {
-        font-size: 6px;
-    }
-}

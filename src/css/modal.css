@@ -29,7 +29,7 @@
     align-items: center;
 
     background-color: var(--primary-color);
-    border-radius: 40px;
+    border-radius: 10px;
 }
 @keyframes modal {
     from {
