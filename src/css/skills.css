@@ -1,12 +1,9 @@
 .projects {
-    height: 100vh;
-
     color: #fff;
     background-color: var(--background-color);
 }
 .projects__container {
     margin: 0 auto;
-    height: 90vh;
 
     display: flex;
     flex-direction: column;
@@ -15,6 +12,7 @@
 }
 
 .projects__title{
+    margin-top: 40px;
     text-align: center;
     grid-area: title;
     font-weight: 400;
@@ -42,6 +40,8 @@
     width: 50rem;
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 40px;
 }
 .experience p,.learning p {
     transition: 0.3s;
@@ -104,10 +104,8 @@
         flex-direction: column;
     }
     .experience,.learning {
-        background-color: var(--primary-color);
-        width: 40rem;
+        width: 50rem;
         height: 12rem;
-        border-radius: 5px;
     }
     .experience:hover,.learning:hover {
         box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
@@ -118,20 +116,10 @@
     .experience p:hover,.learning p:hover {
         font-size: 5rem;
     }
-    .projects__container,.projects {
-        height: 110vh;
+}
+@media (max-width: 650px) {
+    .experience,
+    .learning {
+    width: 93vw;
     }
 }
-
-@media (max-width: 1000px) {
-    .projects__container {
-        text-align: center;
-    }
-    .projects__container,.projects {
-        height: 80vh;
-    }
-}
-@media (max-width: 540px) {
-    .experience,.learning {
-        width: 72vw;
-    }
