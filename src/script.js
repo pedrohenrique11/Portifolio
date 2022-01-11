@@ -68,29 +68,6 @@ JavaScriptModal2.addEventListener('click', () => showedModal('modal-js'));
 const formInputs = document.querySelector("[required]")
 console.log(formInputs)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.querySelector('form')
 .addEventListener('submit', event => {
     coinsole.log('enviou')

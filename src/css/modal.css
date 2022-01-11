@@ -94,10 +94,10 @@
         margin-top: -2rem;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 390px) {
     .modal {
         text-align: center;
-        width: 80vw;
+        width: 95vw;
     }
     .modal h1 {
         font-size: 10rem;

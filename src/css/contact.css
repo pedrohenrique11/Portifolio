@@ -1,6 +1,5 @@
 /* start contact */
 .contact{
-    height: 90vh;
     color: #fff;
     background-color: var(--background-color);
 }
@@ -40,7 +39,6 @@
 @media (max-width:1400px) {
     .contact__container {
         margin: 0 5rem;
-
     }
 }
 
