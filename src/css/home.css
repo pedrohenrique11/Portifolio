@@ -1,12 +1,11 @@
 /* start Home */
 #home{
-    height: 100vh;
     background-color: var(--primary-color);
     text-align: start;
 }
 .home__container {
     margin: auto;
-    padding-top: 150px;
+    padding: 100px 0;
     max-width: 1700px;
 
     color: #fff;
@@ -49,9 +48,17 @@
     display: flex;
     align-items: center;
     max-width: 500px;
+
+    margin: 20px;
 }
 .home__img img {
     width: 400px;
+}
+
+@media (max-width: 1200px) { /* surface pro*/
+    .home__img img {
+        width: 200px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -67,33 +74,36 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 550px) {
     .home__h4 {
         font-size: 1rem;
-        color: black;
-        background-color: var(--text-color-2);
-        border-radius: 5px;
-        padding: 0.6rem 0.6rem;
-        width: 13rem;
     }
     .home__title {
+        font-size: 2.5rem;
+        line-height: 4rem;   
+    }
+    .home__text {
+        font-size: 1rem;
+    }
+    .home__img {
+
+        max-width: 300px;
+    }
+    .home__img {
+        max-width: 300px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .home__title {
         font-weight: 400;
-        font-size: 3rem;
-        line-height: 4.5625rem;
+        font-size: 2rem;
+        line-height: 3rem;
         letter-spacing: 0.02em;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .home__text {
-        font-size: 1rem;
-        line-height: 1.6rem;
-        letter-spacing: 0.05em;
-    
-        color: var(--text-color);
-    }
-    .home__img {
-        display: flex;
-        align-items: center;
-        max-width: 500px;
-    }
+
 }

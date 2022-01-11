@@ -1,14 +1,12 @@
 /* start About_me */
 .about-me {
-    height: 100vh;
+    
     color: #fff;
     background-color: var(--background-color);
 
 }
 .about-me__container {   
     
-    height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,9 +25,9 @@
 
 .about-me__web,
 .about-me__mobile {
-    width: 40rem;
+    width: 50rem;
     height: 20rem;
-
+    margin-bottom: 20px;
     padding: 20px;
 
     background-color: var(--primary-color);
@@ -80,6 +78,7 @@
     font-weight: 300;
 }
 .about-me__presentation {
+    margin: 20px 0;
     max-width: 50rem;
 }
 .ab__presentation--intro {
@@ -118,13 +117,7 @@
 }
 
 
-@media (min-width: 1800px) {
-    .about-me__web,
-    .about-me__mobile {
-    width: 50rem;
-}
 
-}
 @media (max-width: 1600px) {
    
    .about-me__title,
@@ -136,7 +129,6 @@
 
 .ab--text {
     line-height: 2rem;
-    margin: 0 6rem;
     text-align: left;
     
 }
@@ -148,19 +140,14 @@
     margin: 0 1rem;
 }
 }
-@media (max-width: 1000px) {
-    .about-me {
-        height: 90vh;
-    }
-    .about-me__container {
-        height: 80vh;
-    }
-}
-@media (max-width: 540px) {
+@media (max-width: 650px) {
     .about-me__web,
     .about-me__mobile {
-    width: 72vw;
+    width: 93vw;
     height: 21rem;
+}
+.ab__card--title {
+    padding: 1rem;
 }
     .ab--text {
         font-size: 1rem;
@@ -169,3 +156,4 @@
         color: var(--text-color);
     }
 }
+
