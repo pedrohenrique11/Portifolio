@@ -55,7 +55,7 @@
     width: 400px;
 }
 
-@media (max-width: 1200px) { /* surface pro*/
+@media (max-width: 1200px) {
     .home__img img {
         width: 200px;
     }
